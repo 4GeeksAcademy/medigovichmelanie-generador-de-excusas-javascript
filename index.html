@@ -5,25 +5,28 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="./assets/img/4geeks.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Generador de Excusas</title>
+  <title>Generador de Excusas y Dominios</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="/src/style.css" />
 </head>
 
 <body>
   <div class="container-fluid text-center">
-    <h1 class="mt-5">Excusas para no ir a trabajar</h1>
-    <img src="./assets/img/rigo-baby.jpg" alt="Rigo baby" />
-    <p id="excuse" class="alert alert-warning mt-4"></p>
-    <button id="generateButton" class="btn btn-primary mt-3">Generar Nueva Excusa</button>
+    <h1 class="mt-5">Generador de Excusas y Dominios</h1>
+    <img src="/src/assets/img/rigo-baby.jpg" alt="Rigo baby" />
+    <p id="output" class="alert alert-warning mt-4"></p>
+    <div class="button-group">
+      <button id="generateExcuse">Generar Excusa</button>
+      <button id="generateDomain">Generar Dominio</button>
+    </div>
     <div class="fixed-bottom p-4">
       Made with ❤️ by
       <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
     </div>
   </div>
 
-  <script type="module" src="/app.js"></script>
+  <script src="mixed.js"></script>
 </body>
 
 </html>
